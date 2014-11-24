@@ -330,7 +330,7 @@
     font-size: 40px;
     letter-spacing: -0.05em;
     margin: -35px 0 0;
-    padding: 40px 0 0;
+    padding: 25px 0 0;
     width: 70%;
     color: #fff;
     float: left;
@@ -345,7 +345,7 @@
 }
 #firefox-promo img {
     float: left;
-    margin: -30px 20px -5px 0;
+    margin: 0px 20px -5px 0;
 }
 #firefox-promo #firefox-promo-link {
     margin: 0;
