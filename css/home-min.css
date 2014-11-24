@@ -64,7 +64,7 @@
     font-family: 'Open Sans Light', sans-serif;
     font-weight: normal;
     line-height: 1.1;
-    margin: 0 auto 40px;
+    margin: 30px auto 40px;
     position: relative;
     text-align: center;
 }
@@ -323,7 +323,7 @@
 #firefox-promo .container {
     width: 960px;
     padding-top: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     margin: 0 auto;
 }
 #firefox-promo h3 {
@@ -484,10 +484,27 @@
 .news-buttons button {
     background-image: url("../img/control-arrows-lt.png");
 }
+@media all and (min-width:760px) and (max-width:1000px) {
+    #logo{
+        width: 120px !important;
+    }
+    .mz{
+        width: 200px;
+        height: 60px;
+        padding-left: 50px;
+    }
+    .mission h1 {
+        font-size: 70px;
+    }
+    .lang-bg .mission .tagline, .lang-de .mission .tagline, .lang-el .mission .tagline, .lang-es-ES .mission .tagline, .lang-fr .mission .tagline, .lang-it .mission .tagline, .lang-mk .mission .tagline{
+        font-size: 33px;
+    }
+}
 @media only screen and (min-width:760px) and (max-width:1000px) {
     #masthead, .container, .newsletter-form, .mission, .pillars {
     width: 720px;
 }
+
 .mission .tagline {
     font-size: 42px;
 }
@@ -567,10 +584,10 @@
 .mission h1 {
     font-weight: normal;
     font-size: 36px;
-    text-align: left;
+    text-align: center;
 }
 .mission h1 img {
-    display: block;
+    /*display: block;*/
     margin: -0.125em auto 0;
 }
 .mission .tagline {
@@ -578,6 +595,14 @@
 }
 .lang-bg .mission .tagline, .lang-it .mission .tagline, .lang-fr .mission .tagline, .lang-de .mission .tagline, .lang-el .mission .tagline, .lang-es-ES .mission .tagline, .lang-es-MX .mission .tagline, .lang-es-CL .mission .tagline, .lang-es-AR .mission .tagline {
     font-size: 24px;
+    padding-left: 0;
+}
+#logo{
+    display: none;
+}
+.mz{
+    width: 100px;
+    height: 30px;
 }
 .pillars {
     padding-bottom: 13px;
@@ -1375,3 +1400,13 @@
     background-size: 170px 170px, auto auto;
 }
 }
+#logo{
+    position: absolute;
+    left: 0;
+    width: 180px;
+}
+ .mission > .tagline{
+    letter-spacing: -0.06em;
+    padding-left: 150px;
+ }
+ 
