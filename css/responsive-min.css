@@ -783,7 +783,7 @@ a img {
     color: #b8e779;
     margin-left: -54px;
     _margin-left: 0;
-    background: url("../img/firefox-large.png") 0 0 no-repeat;
+    /*background: url("../img/firefox-large.png") 0 0 no-repeat;*/
     _background-color: #659324;
     min-height: 82px;
     margin-bottom: -12px;
@@ -829,7 +829,7 @@ a img {
     _margin-left: 0;
     margin-top: -2px;
     margin-bottom: -7px;
-    background-image: url("../img/firefox-small.png");
+    /*background-image: url("../img/firefox-small.png");*/
     min-height: 45px;
     padding: 10px 20px 10px 73px;
     overflow: visible;
@@ -881,7 +881,7 @@ a img {
 .download-button.download-button-noicon .download-link .download-content {
     margin-left: auto;
     padding-left: 55px;
-    background-image: url("../img/download-arrow.png");
+    /*background-image: url("../img/download-arrow.png");*/
     background-position: 15px 30px;
 }
 .download-button.download-button-noicon .download-link .download-subtitle {
@@ -891,8 +891,8 @@ a img {
     padding-top: 7px;
 }
 .download-button-small.download-button-noicon .download-link .download-content {
-    background-image: url("../img/download-arrow-small.png");
-    background-position: 15px 18px;
+    /*background-image: url("../img/download-arrow-small.png");
+    background-position: 15px 18px;*/
 }
 .download-button-small.download-button-noicon .download-list .os_android .download-link .download-title span, .download-button-small.download-button-mobile.download-button-noicon .download-link .download-title span {
     padding-top: 0;
