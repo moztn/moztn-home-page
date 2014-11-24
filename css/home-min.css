@@ -327,13 +327,14 @@
     margin: 0 auto;
 }
 #firefox-promo h3 {
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: -0.05em;
-    margin: -35px 0 0;
+    margin: -27px 0 0;
     padding: 25px 0 0;
-    width: 70%;
+    width: 75%;
     color: #fff;
     float: left;
+    text-align: left;
 }
 #firefox-promo h3 b {
     font-family: 'Open Sans', sans-serif;
@@ -345,7 +346,7 @@
 }
 #firefox-promo img {
     float: left;
-    margin: 0px 20px -5px 0;
+    margin: -15px 70px -20px 0;
 }
 #firefox-promo #firefox-promo-link {
     margin: 0;
@@ -361,10 +362,10 @@
     padding-bottom: 6px;
 }
 #firefox-promo .download-link {
-    width: 280px;
+    width: 200px;
 }
 #firefox-promo .download-content {
-    padding: 15px 20px 15px 65px;
+    padding: 15px 20px 15px 20px;
     background-position: 20px 24px;
 }
 #firefox-promo .download-title {
@@ -373,14 +374,14 @@
 #firefox-promo .download-subtitle {
     color: #fff;
     text-transform: uppercase;
-    font-weight: bold;
+    /*font-weight: bold;*/
     display: block;
     font-size: 18px;
     line-height: 1.1;
     letter-spacing: -0.05em;
     position: static;
     width: auto;
-    text-align: left;
+    text-align: center;
 }
 #firefox-promo .download-lang, #firefox-promo .download-platform {
     font-family: 'Open Sans Light', sans-serif;
