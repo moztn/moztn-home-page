@@ -752,6 +752,39 @@
     background: -o-linear-gradient(bottom, rgba(185, 24, 26, 0.8) 65%, rgba(185, 24, 26, 0) 100%);
     background: linear-gradient(bottom, rgba(185, 24, 26, 0.8) 65%, rgba(185, 24, 26, 0) 100%);
 }
+/*add panel-kernel style*/
+#panel-kernel {
+  background: #b30406 url("../img/bg-kernel-mosaic.png") -50px -80px no-repeat;
+  background: url("../img/bg-kernel-mosaic.png") -50px -80px no-repeat, #b30406 url("../img/bg-lightbeam.jpg") repeat;
+}
+#panel-kernel .panel-title i {
+  display: block;
+}
+.wide #panel-kernel .panel-title {
+  background: #424f5a;
+  background: rgba(66, 79, 90, 0.8);
+  background: -webkit-linear-gradient(bottom, rgba(66, 79, 90, 0.95) 50%, rgba(66, 79, 90, 0.8) 65%, rgba(66, 79, 90, 0) 100%);
+  background: -moz-linear-gradient(bottom, rgba(66, 79, 90, 0.95) 50%, rgba(66, 79, 90, 0.8) 65%, rgba(66, 79, 90, 0) 100%);
+  background: -o-linear-gradient(bottom, rgba(66, 79, 90, 0.95) 50%, rgba(66, 79, 90, 0.8) 65%, rgba(66, 79, 90, 0) 100%);
+  background: linear-gradient(bottom, rgba(66, 79, 90, 0.95) 50%, rgba(66, 79, 90, 0.8) 65%, rgba(66, 79, 90, 0) 100%);
+}
+/*add panel-blog style*/
+#panel-blog {
+  background: #b30406 url("../img/bg-logo-moztn-sm-hires.png") -50px -80px no-repeat;
+  background: url("../img/bg-logo-moztn-sm-hires.png") -50px -80px no-repeat, #b30406 url("../img/bg-lightbeam.jpg") repeat;
+}
+#panel-blog .panel-title i {
+  display: block;
+}
+.wide #panel-blog .panel-title {
+  background: #e58322;
+  background: rgba(229, 131, 34, 0.8);
+  background: -webkit-linear-gradient(bottom, rgba(229, 131, 34, 0.95) 50%, rgba(229, 131, 34, 0.8) 65%, rgba(229, 131, 34, 0) 100%);
+  background: -moz-linear-gradient(bottom, rgba(229, 131, 34, 0.95) 50%, rgba(229, 131, 34, 0.8) 65%, rgba(229, 131, 34, 0) 100%);
+  background: -o-linear-gradient(bottom, rgba(229, 131, 34, 0.95) 50%, rgba(229, 131, 34, 0.8) 65%, rgba(229, 131, 34, 0) 100%);
+  background: linear-gradient(bottom, rgba(229, 131, 34, 0.95) 50%, rgba(229, 131, 34, 0.8) 65%, rgba(229, 131, 34, 0) 100%);
+}
+
 #panel-lightbeam {
     background: #424f5a url("../img/logo-lightbeam.png") -80px 20px no-repeat;
     background: url("../img/logo-lightbeam.png") -80px 20px no-repeat, #424f5a url("../img/bg-lightbeam.jpg") 0 0 no-repeat;
@@ -1410,4 +1443,3 @@
     letter-spacing: -0.06em;
     padding-left: 150px;
  }
- 
